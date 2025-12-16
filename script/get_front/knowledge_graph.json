@@ -1,0 +1,3516 @@
+[
+  {
+    "start_node": {
+      "properties": {
+        "name": "枚举"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "循环结构",
+        "chunk id": "7762"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "枚举"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "条件判断",
+        "chunk id": "8868"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "枚举"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数据结构（如列表、元组）",
+        "chunk id": "897"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "枚举"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "函数定义",
+        "chunk id": "7631"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "枚举"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "算法复杂度分析",
+        "chunk id": "7750"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "递归"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "函数定义",
+        "chunk id": "7631"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "递归"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "栈结构",
+        "chunk id": "10247"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "递归"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归调用",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "递归"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归终止条件",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "递归"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归与循环的区别",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "分治"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "分治"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "分治"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "问题分解能力",
+        "chunk id": "8880"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "分治"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "合并子问题结果的方法",
+        "chunk id": "8672"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "二分查找"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "有序数组",
+        "chunk id": "11238"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "二分查找"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归或循环",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "二分查找"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "归并排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "分治算法",
+        "chunk id": "8650"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "归并排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "归并排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "归并排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "归并排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "空间复杂度分析",
+        "chunk id": "7853"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "快速排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "快速排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "分治策略",
+        "chunk id": "5562"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "快速排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "快速排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "比较和交换元素",
+        "chunk id": "723"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "快速排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "基准值选择",
+        "chunk id": "9506"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "堆排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数据结构基础",
+        "chunk id": "9176"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "堆排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "二叉树",
+        "chunk id": "8172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "堆排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "完全二叉树",
+        "chunk id": "8176"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "堆排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "堆（最大堆/最小堆）",
+        "chunk id": "583"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "堆排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "堆排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "插入排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "循环结构",
+        "chunk id": "7762"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "插入排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "条件判断",
+        "chunk id": "8868"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "插入排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "插入排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "插入排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "空间复杂度",
+        "chunk id": "7844"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "冒泡排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "循环结构",
+        "chunk id": "7762"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "冒泡排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "条件判断",
+        "chunk id": "8868"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "冒泡排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "列表操作",
+        "chunk id": "7987"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "冒泡排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "比较运算",
+        "chunk id": "3338"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "冒泡排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "算法复杂度",
+        "chunk id": "5518"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "选择排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "循环结构",
+        "chunk id": "7762"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "选择排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "比较操作",
+        "chunk id": "8037"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "选择排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "交换操作",
+        "chunk id": "8327"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "选择排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组/列表基础",
+        "chunk id": "9531"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "计数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "计数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "循环结构",
+        "chunk id": "7762"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "计数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "条件判断",
+        "chunk id": "8868"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "计数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "理解排序算法的基本概念",
+        "chunk id": "9355"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "计数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "了解时间与空间复杂度",
+        "chunk id": "5519"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "桶排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "桶排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "循环结构",
+        "chunk id": "7762"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "桶排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "条件判断",
+        "chunk id": "8868"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "桶排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "函数定义",
+        "chunk id": "7631"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "桶排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "列表推导式",
+        "chunk id": "7987"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "桶排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "排序算法基础概念",
+        "chunk id": "9151"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "桶排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "均匀分布与数据范围",
+        "chunk id": "7016"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "基数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数据结构基础",
+        "chunk id": "9176"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "基数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "基数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "空间复杂度分析",
+        "chunk id": "7853"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "基数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "计数排序",
+        "chunk id": "8625"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "基数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "稳定排序概念",
+        "chunk id": "8530"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "基数排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "位操作基础",
+        "chunk id": "1888"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "滑动窗口"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数据结构基础",
+        "chunk id": "9176"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "滑动窗口"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "滑动窗口"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "双指针技术",
+        "chunk id": "1876"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "滑动窗口"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "滑动窗口"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "队列和栈的基本概念",
+        "chunk id": "10480"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "双指针"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数据结构基础",
+        "chunk id": "9176"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "双指针"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "双指针"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "循环控制",
+        "chunk id": "3249"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "双指针"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "双指针"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "空间复杂度分析",
+        "chunk id": "7853"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "前缀和"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "前缀和"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "循环结构",
+        "chunk id": "7762"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "前缀和"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "基本数学运算",
+        "chunk id": "5141"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "前缀和"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "贪心算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数据结构基础",
+        "chunk id": "9176"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "贪心算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "算法复杂度分析",
+        "chunk id": "7750"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "贪心算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数学归纳法",
+        "chunk id": "5161"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "贪心算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "问题建模能力",
+        "chunk id": "10635"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "贪心算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归与迭代概念",
+        "chunk id": "7781"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Kruskal"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的基本概念",
+        "chunk id": "9558"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Kruskal"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "并查集（Union-Find）数据结构",
+        "chunk id": "2308"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Kruskal"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "边的排序算法",
+        "chunk id": "6277"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Kruskal"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "最小生成树（MST）概念",
+        "chunk id": "6272"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Prim"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的基本概念",
+        "chunk id": "9558"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Prim"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "邻接矩阵或邻接表",
+        "chunk id": "8401"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Prim"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "最小生成树概念",
+        "chunk id": "6269"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Prim"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "优先队列（堆）",
+        "chunk id": "9296"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Prim"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "贪心算法思想",
+        "chunk id": "6172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小区间覆盖"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "贪心算法",
+        "chunk id": "6172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小区间覆盖"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "区间问题",
+        "chunk id": "8447"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小区间覆盖"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "排序算法",
+        "chunk id": "9151"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小区间覆盖"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Dijkstra"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的基本概念",
+        "chunk id": "9558"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Dijkstra"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "邻接矩阵或邻接表",
+        "chunk id": "8401"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Dijkstra"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "优先队列（堆）",
+        "chunk id": "9296"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Dijkstra"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "贪心算法思想",
+        "chunk id": "6172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Dijkstra"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "最短路径问题",
+        "chunk id": "10524"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Huffman编码"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数据结构",
+        "chunk id": "9176"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Huffman编码"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "优先队列（堆）",
+        "chunk id": "9296"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Huffman编码"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "二叉树",
+        "chunk id": "8172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Huffman编码"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "贪心算法",
+        "chunk id": "6172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Huffman编码"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "编码与解码概念",
+        "chunk id": "4721"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "Huffman编码"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "信息论基础",
+        "chunk id": "35"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "作业调度"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "操作系统基础",
+        "chunk id": "35"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "作业调度"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "进程与线程",
+        "chunk id": "6471"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "作业调度"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "调度算法",
+        "chunk id": "1672"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "作业调度"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "优先级与资源分配",
+        "chunk id": "5562"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "作业调度"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "队列与数据结构",
+        "chunk id": "897"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "作业调度"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间片轮转",
+        "chunk id": "1403"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "作业调度"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "抢占式与非抢占式调度",
+        "chunk id": "1835"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小字典序构造"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "字符串操作",
+        "chunk id": "8511"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小字典序构造"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "排序算法",
+        "chunk id": "9151"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小字典序构造"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "贪心算法",
+        "chunk id": "6172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小字典序构造"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "字典序比较",
+        "chunk id": "5772"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小字典序构造"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "栈或队列结构",
+        "chunk id": "10480"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小字典序构造"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "回溯算法",
+        "chunk id": "6422"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小字典序构造"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归思想",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "动态规划"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "动态规划"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组",
+        "chunk id": "9531"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "动态规划"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "循环结构",
+        "chunk id": "7762"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "动态规划"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "状态转移",
+        "chunk id": "8874"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "动态规划"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "最优子结构",
+        "chunk id": "8841"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "动态规划"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "重叠子问题",
+        "chunk id": "8883"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最长公共子序列"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "动态规划",
+        "chunk id": "5792"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最长公共子序列"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最长公共子序列"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "二维数组",
+        "chunk id": "11039"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最长公共子序列"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "字符串操作",
+        "chunk id": "8511"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最长公共子序列"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "子序列概念",
+        "chunk id": "5847"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "背包问题"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "动态规划",
+        "chunk id": "5792"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "背包问题"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "背包问题"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "背包问题"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "贪心算法",
+        "chunk id": "6172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "背包问题"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "状态转移方程",
+        "chunk id": "8874"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "背包问题"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "背包问题"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "空间复杂度分析",
+        "chunk id": "7853"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "编辑距离"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "动态规划",
+        "chunk id": "5792"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "编辑距离"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "字符串操作",
+        "chunk id": "8511"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "编辑距离"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "编辑距离"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "二维数组",
+        "chunk id": "11039"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "编辑距离"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "编辑距离"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "空间复杂度分析",
+        "chunk id": "7853"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最近点对"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "分治算法",
+        "chunk id": "8650"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最近点对"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最近点对"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "平面几何",
+        "chunk id": "4511"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最近点对"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "距离计算",
+        "chunk id": "10810"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最近点对"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "排序算法",
+        "chunk id": "9151"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "DFS"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "DFS"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "栈",
+        "chunk id": "10247"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "DFS"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图论基础",
+        "chunk id": "11392"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "DFS"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "树结构",
+        "chunk id": "8182"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "DFS"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "回溯算法",
+        "chunk id": "6422"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "BFS"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "队列数据结构",
+        "chunk id": "10480"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "BFS"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的基本概念",
+        "chunk id": "9558"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "BFS"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归与迭代",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "BFS"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间与空间复杂度分析",
+        "chunk id": "5519"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图连通块"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的基本概念",
+        "chunk id": "9558"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图连通块"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "深度优先搜索(DFS)",
+        "chunk id": "2502"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图连通块"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "广度优先搜索(BFS)",
+        "chunk id": "10464"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图连通块"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "邻接表或邻接矩阵表示图",
+        "chunk id": "2414"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图连通块"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归与栈",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图连通块"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "队列",
+        "chunk id": "8044"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "拓扑排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的基本概念",
+        "chunk id": "9558"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "拓扑排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "有向图",
+        "chunk id": "10492"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "拓扑排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "入度与出度",
+        "chunk id": "5247"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "拓扑排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "邻接表",
+        "chunk id": "11426"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "拓扑排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "深度优先搜索(DFS)",
+        "chunk id": "2502"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "拓扑排序"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "广度优先搜索(BFS)",
+        "chunk id": "10464"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最短路径"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的基本概念",
+        "chunk id": "9558"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最短路径"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "邻接矩阵与邻接表",
+        "chunk id": "8379"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最短路径"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "队列与栈",
+        "chunk id": "8024"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最短路径"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "优先队列（堆）",
+        "chunk id": "9296"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最短路径"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归与动态规划",
+        "chunk id": "5792"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最短路径"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "深度优先搜索（DFS）",
+        "chunk id": "2502"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最短路径"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "广度优先搜索（BFS）",
+        "chunk id": "10464"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小步数"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "BFS（广度优先搜索）",
+        "chunk id": "8405"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小步数"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的遍历",
+        "chunk id": "8403"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小步数"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "队列数据结构",
+        "chunk id": "10480"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小步数"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "状态空间表示",
+        "chunk id": "8869"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小步数"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "最短路径问题",
+        "chunk id": "10524"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "回溯"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "回溯"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "栈",
+        "chunk id": "10247"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "回溯"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "剪枝优化",
+        "chunk id": "8764"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "回溯"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "问题状态表示",
+        "chunk id": "8736"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "回溯"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归终止条件",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "N皇后"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "回溯算法",
+        "chunk id": "6422"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "N皇后"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "N皇后"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "二维数组操作",
+        "chunk id": "7941"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "N皇后"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "剪枝优化",
+        "chunk id": "8764"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "N皇后"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "八皇后问题理解",
+        "chunk id": "8793"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图着色"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图论基础",
+        "chunk id": "11392"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图着色"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "顶点与边的概念",
+        "chunk id": "9560"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图着色"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "邻接矩阵与邻接表",
+        "chunk id": "8379"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图着色"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "回溯算法",
+        "chunk id": "6422"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图着色"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "贪心算法",
+        "chunk id": "6172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图着色"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "约束满足问题",
+        "chunk id": "2822"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图着色"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的表示方法",
+        "chunk id": "2400"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图着色"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归与递归剪枝",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "图着色"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "剪枝"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "递归",
+        "chunk id": "10223"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "剪枝"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "回溯算法",
+        "chunk id": "6422"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "剪枝"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "搜索算法",
+        "chunk id": "10922"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "剪枝"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "剪枝"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "状态空间树",
+        "chunk id": "8736"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "剪枝"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "剪枝条件设计",
+        "chunk id": "8769"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小生成树"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的基本概念",
+        "chunk id": "9558"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小生成树"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的表示方法",
+        "chunk id": "2400"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小生成树"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "边与权重",
+        "chunk id": "9605"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小生成树"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "连通图与连通分量",
+        "chunk id": "5256"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小生成树"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "贪心算法",
+        "chunk id": "6172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "最小生成树"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "优先队列（堆）",
+        "chunk id": "9296"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "网络流"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图论基础",
+        "chunk id": "11392"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "网络流"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的表示方法",
+        "chunk id": "2400"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "网络流"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "广度优先搜索(BFS)",
+        "chunk id": "10464"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "网络流"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "深度优先搜索(DFS)",
+        "chunk id": "2502"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "网络流"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "最短路径算法",
+        "chunk id": "7253"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "网络流"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "最大最小割概念",
+        "chunk id": "3212"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "网络流"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "队列与栈",
+        "chunk id": "8024"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "网络流"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "图的遍历算法",
+        "chunk id": "8403"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "KMP"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "字符串操作",
+        "chunk id": "8511"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "KMP"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数组",
+        "chunk id": "9531"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "KMP"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "双指针",
+        "chunk id": "1876"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "KMP"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "模式匹配",
+        "chunk id": "4373"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "KMP"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "前缀与后缀概念",
+        "chunk id": "8618"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "局部搜索"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "算法基础",
+        "chunk id": "5512"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "局部搜索"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "数据结构",
+        "chunk id": "9176"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "局部搜索"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "搜索算法",
+        "chunk id": "10922"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "局部搜索"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "优化问题",
+        "chunk id": "8747"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "局部搜索"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "启发式方法",
+        "chunk id": "3324"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "局部搜索"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "邻域搜索概念",
+        "chunk id": "10500"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "局部搜索"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "时间复杂度分析",
+        "chunk id": "7808"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "局部搜索"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "贪心算法",
+        "chunk id": "6172"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "模拟退火"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "概率论基础",
+        "chunk id": "35"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "模拟退火"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "优化问题概念",
+        "chunk id": "4701"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "模拟退火"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "温度参数与冷却策略",
+        "chunk id": "7630"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "模拟退火"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "邻域搜索概念",
+        "chunk id": "10500"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "模拟退火"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "随机搜索算法",
+        "chunk id": "6859"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "模拟退火"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "元启发式算法原理",
+        "chunk id": "4329"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "遗传算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "Python 编程基础",
+        "chunk id": "35"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "遗传算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "基本数据结构",
+        "chunk id": "9176"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "遗传算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "概率论与统计学",
+        "chunk id": "561"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "遗传算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "优化问题基础",
+        "chunk id": "4701"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "遗传算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "进化计算概念",
+        "chunk id": "5512"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "遗传算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "适应度函数设计",
+        "chunk id": "4847"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "遗传算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "编码与解码方法",
+        "chunk id": "4721"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "遗传算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "选择、交叉与变异操作",
+        "chunk id": "3833"
+      }
+    }
+  },
+  {
+    "start_node": {
+      "properties": {
+        "name": "遗传算法"
+      }
+    },
+    "relation": "前置知识",
+    "end_node": {
+      "properties": {
+        "name": "迭代与收敛概念",
+        "chunk id": "7781"
+      }
+    }
+  }
+]

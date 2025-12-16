@@ -1,0 +1,53 @@
+llm:
+  use: 'dmxapi' # Options: 'dmxapi_gemini', 'deepseek', 'siliconflow', 'ollama-deepseek-r1'
+  ollama-deepseek-r1:
+    api_key: 'your key'
+    api_base: 'http://localhost:11434/v1/'
+    model: 'deepseek-r1:70b'
+    temperature: 0.7
+  deepseek:
+    api_key: 'your key'
+    api_base: 'https://api.deepseek.com'
+    model: 'deepseek-chat'
+    temperature: 0.85
+    max_tokens: 4000
+  siliconflow:
+    api_key: 'your key'
+    api_base: 'https://api.siliconflow.cn/v1'
+    temperature: 0.3
+    model: 'deepseek-ai/DeepSeek-V3' # Alternative options: 'moonshotai/Kimi-K2-Instruct', 'deepseek-ai/DeepSeek-V3'
+    max_tokens: 8192
+  deepseek-r1:
+    api_key: 'your key'
+    temperature: 0.85
+    max_tokens: 4000
+  dmxapi:
+    api_key: 'your key'
+    api_base: 'https://www.dmxapi.cn/v1' # Note: chat/completions will be automatically appended
+    model: 'gpt-4o-mini'
+    temperature: 0.3
+    top_p: 0.9
+  dmxapi_gemini:
+    api_key: 'your key'
+    api_base: 'https://www.dmxapi.cn/v1' # Note: chat/completions will be automatically appended
+    model: 'gemini-2.5-flash'
+    temperature: 0.3
+    top_p: 0.9
+
+embedding:
+  use: 'siliconflow' # Options: 'nomic-embed-text', 'tongyi', 'siliconflow', 'openai'
+  tongyi:
+    api_key: 'your key'
+    api_base: 'https://dashscope.aliyuncs.com/compatible-mode/v1'
+    model: text-embedding-v3
+  siliconflow:
+    api_key: 'your key'
+    api_base: 'https://api.siliconflow.cn/v1'
+    model: 'Pro/BAAI/bge-m3'
+  openai:
+    api_key: 'your key'
+    api_base: 'https://api.openai-sb.com/v1'
+  nomic-embed-text:
+    model: 'nomic-embed-text:latest'
+    api_base: 'http://localhost:11434' # Note: Use full path http://localhost:11434/v1 for compatibility
+    temperature: 0.7
