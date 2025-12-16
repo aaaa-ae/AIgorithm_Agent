@@ -1,12 +1,25 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from retrieval import (
+from retrieval.retrieval import (
     faiss_search,
     bm25_search,
-    pre_knowledge_search
+    pre_knowledge_search,
 )
+
 from agent import agent_framework, format_response
+
+from retrieval.qa_retrieval.qa_retrieval_advanced import (
+    AdvancedQARetriever,
+    AdvancedRetrievalConfig,
+)
+
+
+qa_retriever = AdvancedQARetriever(
+    AdvancedRetrievalConfig(
+        search_mode="hybrid"
+    )
+)
 
 app = FastAPI()
 
@@ -73,6 +86,29 @@ def api_pre_knowledge(req: Query):
     return {
         "query": req.query,
         "prerequisites": prerequisites
+    }
+
+
+@app.post("/qa_search")
+def api_qa_search(req: Query):
+    """
+    高级题库检索接口
+    """
+    results = qa_retriever.search(
+        query=req.query,
+        top_k=req.top_k
+    )
+
+    return {
+        "results": [
+            {
+                "score": score,
+                "question": item.get("question"),
+                "chapter": item.get("chapter"),
+                "answer": item.get("answer", "")  
+            }
+            for item, score in results
+        ]
     }
 
 

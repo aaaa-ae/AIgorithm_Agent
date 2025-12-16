@@ -13,7 +13,7 @@ from rank_bm25 import BM25Okapi
 # ======================================================
 
 # 获取项目根目录
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CONFIG_PATH = os.path.join(PROJECT_ROOT, "config", "base2.yaml")
 
 with open(CONFIG_PATH, "r", encoding="utf-8") as f:

@@ -10,7 +10,8 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent))
 
 # Import existing modules
-from retrieval import faiss_search, bm25_search
+from retrieval.retrieval import faiss_search, bm25_search
+
 from camel.agents import ChatAgent
 from camel.models import OpenAIModel
 from utils import renumber_citations, validate_citations
