@@ -431,14 +431,40 @@ def agent_framework(user_query: str, max_iterations: int = 3) -> Dict[str, Any]:
 # ================================
 # CLI Interface
 # ================================
+def build_citation_display_index(response: Dict[str, Any]) -> Dict[int, str]:
+    """
+    citation_id -> "《书名》 · title"
+    citation_id 按 observations.results 首次出现的 chunk 去重顺序递增
+    """
+    idx: Dict[int, str] = {}
+    seen_chunk_ids = set()
+    citation_id = 1
 
-def format_response(response: Dict[str, Any]) -> str:
-    """Format the agent response for user display"""
+    for obs in response.get("observations", []):
+        for r in obs.get("results", []):
+            chunk_id = r.get("chunk_id")
+            if chunk_id is None or chunk_id in seen_chunk_ids:
+                continue
+
+            meta = r.get("metadata", {}) or {}
+            book = meta.get("title") or meta.get("source") or "未知来源"
+            title = r.get("title") or "未命名条目"
+
+            idx[citation_id] = f"《{book}》-{title}"
+
+            seen_chunk_ids.add(chunk_id)
+            citation_id += 1
+
+    return idx
+
+
+def format_response(response: Dict[str, Any]) -> Tuple[str, List[str]]:
     answer = response.get("final_answer", "")
-    citations = response.get("used_citations", [])
-    # todo: 重编码逻辑
-    iterations = response.get("iterations", 1) 
+    used = response.get("used_citations", [])
 
+    display_index = build_citation_display_index(response)
+
+    citations = [display_index[c] for c in used if c in display_index]
     return answer, citations
 
 
@@ -463,8 +489,10 @@ def main():
             # Run the PEV framework
             response = agent_framework(query)
 
+            answer, citations = format_response(response)
+            print("answer:", answer)
+            print("citations:", citations)
             # Display result
-            print(format_response(response))
             print("-" * 40)
 
         except KeyboardInterrupt:

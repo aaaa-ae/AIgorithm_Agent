@@ -153,7 +153,6 @@ def pre_knowledge_search(query):
     """
     # 1. 识别查询中出现的算法概念
     matched_concepts = []
-    query_lower = query.lower()
 
     for concept in ALGORITHM_CONCEPTS:
         # 简单字符串匹配，检查概念是否出现在查询中
@@ -164,6 +163,7 @@ def pre_knowledge_search(query):
         return []
 
     # 2. 查找每个匹配概念的直接前置知识
+    # 使用字典存储前置知识，确保每个概念只出现一次
     prerequisite_chunks = {}
 
     for edge in _knowledge_graph:
@@ -171,36 +171,25 @@ def pre_knowledge_search(query):
         start_concept = edge.get("start_node", {}).get("properties", {}).get("name", "")
 
         if start_concept in matched_concepts:
-            # 获取前置知识概念名称和 chunk_id
+            # 获取前置知识概念名称和 chunk 内容
             prereq_concept = edge.get("end_node", {}).get("properties", {}).get("name", "")
-            chunk_id = edge.get("end_node", {}).get("properties", {}).get("chunk id")
+            chunk_content = edge.get("end_node", {}).get("properties", {}).get("chunk", "")
 
-            if prereq_concept and chunk_id:
+            if prereq_concept and chunk_content:
                 # 确保每个前置概念只添加一次
                 if prereq_concept not in prerequisite_chunks:
-                    prerequisite_chunks[prereq_concept] = chunk_id
+                    prerequisite_chunks[prereq_concept] = chunk_content
 
-    # 3. 根据 chunk_id 从文档库中检索文档
+    # 3. 构建结果，chunk 内容直接从知识图谱获取
     results = []
 
-    for prereq_concept, chunk_id in prerequisite_chunks.items():
-        # 转换 chunk_id 为整数（如果存储的是字符串）
-        try:
-            chunk_id_int = int(chunk_id)
-            chunk_object = DOC_BY_ID.get(chunk_id_int)
-
-            if chunk_object:
-                results.append((prereq_concept, chunk_object))
-        except (ValueError, TypeError):
-            # 如果转换失败，尝试直接使用 chunk_id
-            chunk_object = None
-            for doc in docstore:
-                if str(doc.get("chunk_id", "")) == str(chunk_id):
-                    chunk_object = doc
-                    break
-
-            if chunk_object:
-                results.append((prereq_concept, chunk_object))
+    for prereq_concept, chunk_content in prerequisite_chunks.items():
+        # 构造一个简单的 chunk 对象结构
+        chunk_object = {
+            "content": chunk_content,
+            "title": prereq_concept,
+        }
+        results.append((prereq_concept, chunk_object))
 
     return results
 
@@ -225,7 +214,6 @@ def main():
         print(f"Found {len(results)} prerequisite chunks:")
         for concept, chunk in results:
             print(f"- 前置知识点: {concept}")
-            print(f"  chunk_id: {chunk.get('chunk_id')}")
             content_preview = chunk.get("content", "")[:120].replace("\n", " ")
             print(f"  content preview: {content_preview}...")
             print()

@@ -1,0 +1,59 @@
+llm:
+  use: siliconflow
+  siliconflow:
+    - api_key: "sk-hrvpfobqslzrgfxunjrjdflttskthedqtsbifmzfqozrtfza"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+    - api_key: "sk-varotcommbpttwkmvrcznqgroqewaglrtcnlskyvaabgolim"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+    - api_key: "sk-klnyioflaucgizixndytgxrlwhyrconbzajbgtkovsagttha"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+    - api_key: "sk-enzbbnvtcnyfsbuawhjgjsiuwdqmxhpinufobjhvtllmhxuy"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+    - api_key: "sk-dcimxgrikpskounlgqjikcjyliiseywxtiwpkcexqhorfhjd"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+    - api_key: "sk-crhbholxcqldbqimnluhpikfuomfjdcrwydybxczxwvteoxx"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+    - api_key: "sk-lylknofeldklwowhtsmjnogzvvhzyktrjjrhfswnznrxruja"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+    - api_key: "sk-zeruudoskwllezurejdaqtoautnomiqtphpyofacbnbzmybe"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+    - api_key: "sk-vhfwhragmjtribovcmvkvfyyrqvargpqdeqwqcfllateeqtz"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+    - api_key: "sk-xlyeovdljcpoqjhxaswobnagblkaxyomezmxczddkjdtilew"
+      api_base: "https://api.siliconflow.cn/v1"
+      model: "Qwen/Qwen2.5-32B-Instruct"
+      rate_limit: 200
+
+  # 如果你想使用dmxapi，需要将其配置为openai格式
+  openai:
+    - api_key: "sk-zeBMnqw4L58EseM8nxCRvO4Iqz7kO6rmrxU5hQOmktKCBhOJ"
+      api_base: "https://www.dmxapi.cn/v1"
+      model: "gpt-4o-mini"
+      rate_limit: 200
