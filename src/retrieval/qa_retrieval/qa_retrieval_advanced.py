@@ -26,7 +26,7 @@ class AdvancedRetrievalConfig:
     .parents[3]          # 回到 AIgorithm_Agent 根目录
     / "data"
     / "qa_bank"
-    / "算法导论mini.json"
+    / "answered_questions.json"
     )
     top_k: int = 10
     min_score: float = 0.05

@@ -79,3 +79,37 @@ def validate_citations(final_answer: str, used_citations: List[int]) -> Dict[str
         "missing_in_answer": list(missing_in_answer),
         "extra_in_answer": list(extra_in_answer)
     }
+
+
+def renumber_citations_both_formats(answer: str, used_citations: List[int]) -> Tuple[str, Dict[int, int]]:
+    """
+    重新编号 answer 中的引用，支持 [] 和 【】 两种格式
+
+    Args:
+        answer: 包含引用的答案文本
+        used_citations: 使用的旧引用编号列表
+
+    Returns:
+        Tuple: (重新编号后的答案, 旧编号->新编号 的映射)
+    """
+    if not used_citations:
+        return answer, {}
+
+    # 创建映射：旧编号 -> 新编号（从1开始连续）
+    old_to_new = {}
+    used_sorted = sorted(set(used_citations))
+    for new_num, old_num in enumerate(used_sorted, 1):
+        old_to_new[old_num] = new_num
+
+    # 替换 [] 格式的引用
+    new_answer = answer
+    for old_num, new_num in old_to_new.items():
+        pattern = r'\[' + str(old_num) + r'\](?!\d)'
+        new_answer = re.sub(pattern, f'[{new_num}]', new_answer)
+
+    # 替换 【】 格式的引用
+    for old_num, new_num in old_to_new.items():
+        pattern = r'【' + str(old_num) + r'】(?!\d)'
+        new_answer = re.sub(pattern, f'【{new_num}】', new_answer)
+
+    return new_answer, old_to_new
