@@ -10,11 +10,20 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent))
 
 # Import existing modules
-from retrieval.retrieval import faiss_search, bm25_search
+from retrieval.retrieval import faiss_search, bm25_search, pre_knowledge_search
+from retrieval.qa_retrieval.qa_retrieval_advanced import (
+    AdvancedQARetriever,
+    AdvancedRetrievalConfig,
+)
 
 from camel.agents import ChatAgent
 from camel.models import OpenAIModel
 from utils import renumber_citations, validate_citations, renumber_citations_both_formats
+
+# 初始化题库检索器
+qa_retriever = AdvancedQARetriever(
+    AdvancedRetrievalConfig(search_mode="hybrid")
+)
 
 
 def load_config():

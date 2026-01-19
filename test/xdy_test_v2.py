@@ -12,6 +12,7 @@ import sys
 import json
 from pathlib import Path
 import pandas as pd
+import time
 
 # ========= 1) 项目路径设置 =========
 TEST_DIR = Path(__file__).parent.resolve()
@@ -104,7 +105,12 @@ def main():
 
         try:
             result = agent_framework(query)
-
+            time.sleep(3)
+            # result2 = xdy_test(query)
+            # sleep(3)
+            # suggestion = llm_judge(result1,result2) # 让大模型来比较两个回答，从相关性角度、覆盖面角度
+            # sleep(3)
+            
             final_answer = result.get("final_answer", "")
             verification = result.get("verification", {})
             iterations = result.get("iterations", "")

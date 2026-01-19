@@ -14,6 +14,12 @@ from retrieval.qa_retrieval.qa_retrieval_advanced import (
     AdvancedRetrievalConfig,
 )
 
+from controller import (
+    recommend_controller,
+    format_prerequisite_results,
+    format_qa_results,
+)
+
 
 qa_retriever = AdvancedQARetriever(
     AdvancedRetrievalConfig(
@@ -105,11 +111,53 @@ def api_qa_search(req: Query):
                 "score": score,
                 "question": item.get("question"),
                 "chapter": item.get("chapter"),
-                "answer": item.get("answer", "")  
+                "answer": item.get("answer", "")
             }
             for item, score in results
         ]
     }
+
+
+@app.post("/smart_answer")
+def api_smart_answer(req: Query):
+    """
+    智能推荐接口 - 根据 query 自动决定返回内容
+
+    返回内容可能包括：
+    - answer: 基础答案（始终返回）
+    - citations: 参考文献（始终返回）
+    - decision: 推荐决策信息
+    - prerequisites: 前置知识点（如果 recommend_prerequisite=True）
+    - related_questions: 相关题库（如果 recommend_qa_bank=True）
+    """
+    # 1. 推荐判断
+    decision = recommend_controller(req.query)
+
+    # 2. 基础答案 (始终返回)
+    response = agent_framework(req.query)
+    answer, citations = format_response(response)
+
+    result = {
+        "answer": answer,
+        "citations": citations,
+        "decision": {
+            "recommend_prerequisite": decision["recommend_prerequisite"],
+            "recommend_qa_bank": decision["recommend_qa_bank"],
+            "detected_concepts": decision["detected_concepts"],
+            "reason": decision["reason"]
+        }
+    }
+
+    # 3. 根据决策添加额外内容
+    if decision["recommend_prerequisite"]:
+        prereq_raw = pre_knowledge_search(req.query)
+        result["prerequisites"] = format_prerequisite_results(prereq_raw)
+
+    if decision["recommend_qa_bank"]:
+        qa_raw = qa_retriever.search(req.query, top_k=5)
+        result["related_questions"] = format_qa_results(qa_raw)
+
+    return result
 
 
 if __name__ == "__main__":
