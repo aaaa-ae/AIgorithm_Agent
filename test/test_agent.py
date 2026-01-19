@@ -14,13 +14,6 @@ from agent import agent_framework
 # Test query
 # test_query = "最优子结构是什么"
 test_query = "树搜索和图搜索的区别是什么"
-# queries = ["", "" ,"",...]
-# results = []
-
-# for test_query in queries:
-#   result = agent_framework(test_query)
-#   res = result["final_answer"]
-#   results.append(agent_framework(test_query))
 
 result = agent_framework(test_query)
 
@@ -28,9 +21,6 @@ print("=" * 60)
 print("PEV Agent Framework Test")
 print("=" * 60)
 print(f"测试问题：{test_query}\n")
-
-# Run the PEV framework
-# result = agent_framework(test_query)
 
 # Display results
 print("\n" + "=" * 60)
