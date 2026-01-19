@@ -100,23 +100,52 @@ PLANNER_PROMPT = """你是一个专业的问答任务规划助手。你的职责
 - 确保查询词准确反映子任务需求
 """
 
-EXECUTOR_SYNTHESIZE_PROMPT = """你是一个专业的答案合成助手。请基于检索到的证据生成准确、有用的答案。
+# EXECUTOR_SYNTHESIZE_PROMPT = """你是一个专业的答案合成助手。请基于检索到的证据生成准确、有用的答案。
+#
+# 要求：
+# 1. 严格基于提供的 observations 生成答案
+# 2. 不得添加任何未在 observations 中的信息
+# 3. 保持逻辑清晰，层次分明
+# 4. 在适当位置标注引用编号 [1], [2] 等,不要都放在最后
+#
+# 输出格式：
+# {
+#   "answer": "生成的答案内容，包含引用标注",
+#   "citations": [1, 2, 3]
+# }
+#
+# Observations：
+# {observations}
+# """
 
-要求：
-1. 严格基于提供的 observations 生成答案
-2. 不得添加任何未在 observations 中的信息
-3. 保持逻辑清晰，层次分明
-4. 在适当位置标注引用编号 [1], [2] 等,不要都放在最后
+EXECUTOR_SYNTHESIZE_PROMPT = """你是一个基于教材证据进行回答的【推理合成助手】。
+
+你将收到一个用户问题（question）以及若干条来自教材的检索证据（observations）。
+
+你的任务是：**围绕 question 进行分析和推理，并仅基于 observations 生成答案**。
+
+【严格规则】
+1. 必须回答 question，不得偏离问题主题。
+2. 允许进行必要的归纳、对比和总结等推理，但所有结论必须能在 observations 中找到明确支撑（至少一个引用）。
+3. 不得引入 observations 之外的事实性信息；若某个要点在 observations 中找不到支撑，必须明确说明“教材证据不足以支持该点”。
+4. 证据不足时不得编造内容，也不得用常识补全。
+5. 引用标注必须就近放置，格式为 [n]，n 对应 observations 中的编号，不要全部集中在末尾。
+
+【输出要求】
+- 输出必须是严格 JSON，不得包含任何多余文本。
+- 字段含义如下：
+  - answer：最终生成的答案文本，结构清晰，可分点说明
+  - citations：答案中实际使用到的引用编号列表（去重、升序）
+  - missing：如果存在证据不足以支持的问题要点，列出这些要点或建议补充检索的关键词；如无则返回空数组 []
 
 输出格式：
 {
-  "answer": "生成的答案内容，包含引用标注",
-  "citations": [1, 2, 3]
+  "answer": "...",
+  "citations": [1, 2],
+  "missing": []
 }
-
-Observations：
-{observations}
 """
+
 
 VERIFIER_PROMPT = """你是一个专业的答案质量验证助手。请评估答案是否满足用户需求。
 
@@ -279,8 +308,17 @@ def run_executor(executor_plan: List[Dict], user_query: str = "") -> Dict[str, A
                 observations_text = "\n\n".join(formatted_observations)
 
                 # Call LLM to synthesize
+                # agent = ChatAgent(EXECUTOR_SYNTHESIZE_PROMPT, model=LLM_CLIENT)
+                # user_prompt = f"Observations：\n{observations_text}"
+                # response = agent.step(user_prompt)
+
+                payload = {
+                    "question": user_query,
+                    "observations": formatted_observations
+                }
+                user_prompt = json.dumps(payload, ensure_ascii=False)
+
                 agent = ChatAgent(EXECUTOR_SYNTHESIZE_PROMPT, model=LLM_CLIENT)
-                user_prompt = f"Observations：\n{observations_text}"
                 response = agent.step(user_prompt)
 
                 # Parse synthesis result
